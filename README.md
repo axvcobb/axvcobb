@@ -1,2 +1,4 @@
 # axvcobb.github.io
-alexcobb.dev
+---
+permalink: /index.html
+---
