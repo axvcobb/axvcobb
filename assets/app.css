@@ -17,6 +17,7 @@ body {
 .header {
   grid-area: header;
   border: orange 2px solid;
+  text-align: center;
 }
 
 .sidebar {
@@ -32,4 +33,5 @@ body {
 .footer {
   grid-area: footer;
   border: orange 2px solid;
+  text-align: center;
 }
