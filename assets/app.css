@@ -45,19 +45,40 @@ body {
 .about {
   grid-area: about;
   text-align: center;
-  border: orange 2px solid;
+  background-color: orange;
+}
+
+.about p {
+  text-align: left;
+  margin-right: 3em;
+  margin-left: 3em;
+  font-size: 2vmax;
 }
 
 .skills {
   grid-area: skills;
   text-align: center;
-  border: orange 2px solid;
+  /* border: orange 2px solid; */
+}
+
+.skills p {
+  text-align: left;
+  margin-right: 3em;
+  margin-left: 3em;
+  font-size: 2vmax;
 }
 
 .projects {
   grid-area: projects;
   text-align: center;
-  border: orange 2px solid;
+  background-color: orange;
+}
+
+.projects p {
+  text-align: left;
+  margin-right: 3em;
+  margin-left: 3em;
+  font-size: 2vmax;
 }
 
 .footer {
@@ -87,9 +108,13 @@ body {
   text-align: center;
 }
 
+.headers {
+  margin-bottom: -.25em;
+}
+
 #alex {
   display: inline-block;
   border-radius: 100%;
   height: 150px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
