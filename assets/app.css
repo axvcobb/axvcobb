@@ -14,7 +14,6 @@ body {
     "skills skills skills skills skills skills"
     "projects projects projects projects projects projects"
     "footer footer footer footer footer footer";
-  grid-gap: .5em;
 }
 
 .sidebar {
@@ -117,4 +116,30 @@ body {
   border-radius: 100%;
   height: 150px;
   /* border: solid 1px black; */
+}
+
+@media only all and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "c"
+      "g"
+      "h"
+      "f"
+      "about"
+      "skills"
+      "projects"
+      "footer";
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .right {
+    text-align: center;
+  }
 }
