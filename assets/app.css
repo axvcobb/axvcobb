@@ -51,7 +51,7 @@ body {
   text-align: left;
   margin-right: 3vw;
   margin-left: 3vw;
-  font-size: 2vmax;
+  font-size: 1.75vmax;
 }
 
 .skills {
@@ -76,12 +76,16 @@ body {
   grid-area: proficient;
   list-style-position: inside;
   text-align: left;
-  font-size: 2vmax;
+  font-size: 1.75vmax;
   margin-top: -1em;
 }
 
-.proficient h2 {
-  margin-left: 2em;
+.proficient h3 {
+  margin-left: 4em;
+}
+
+.familiar h3 {
+  margin-left: 1em;
 }
 
 .proficient ul {
@@ -94,7 +98,7 @@ body {
   grid-area: familiar;
   list-style-position: inside;
   text-align: left;
-  font-size: 2vmax;
+  font-size: 1.75vmax;
   margin-top: -1em;
   margin-left: 2em;
 }
@@ -112,14 +116,17 @@ body {
 }
 
 .projects p{
-  font-size: 2vmax;
+  font-size: 1.75vmax;
 }
 
 .footer {
   grid-area: footer;
-  /* border: orange 2px solid; */
   text-align: center;
   background-color: #A9A9A9;
+}
+
+.footer p {
+  text-align: center;
 }
 
 .name {
@@ -212,8 +219,14 @@ body {
     -moz-columns: 1;
   }
 
-  .proficient h2 {
+  .proficient h3 {
     margin-left: 0;
+    text-align: center;
+  }
+
+  .familiar h3 {
+    margin-left: 0;
+    text-align: center;
   }
 
   .familiar {
