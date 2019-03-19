@@ -61,6 +61,7 @@ body {
   grid-template-areas:
     ". title title ."
     ". proficient familiar .";
+  padding-bottom: 1.5em;
 }
 
 .skills ul {
