@@ -81,7 +81,7 @@ body {
 }
 
 .proficient h3 {
-  margin-left: 4em;
+  text-align:center;
 }
 
 .familiar h3 {
@@ -115,7 +115,7 @@ body {
   margin-left: 3vw;
 }
 
-.projects p{
+.projects p {
   font-size: 1.75vmax;
 }
 
